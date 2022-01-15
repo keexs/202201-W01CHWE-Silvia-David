@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.socialmedia ul li {
+  display: flex;
+}
+
+.formulario__input {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario__input label {
+  padding-bottom: 1rem;
+  align-self: center;
+}
+
+.formulario__input input {
+  align-self: center;
+  padding-bottom: 1rem;
+}
+
+.formulario__checkbox {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.formulario__button button {
+  display: flex;
+  justify-content: center;
+}
+
+.footerbar {
+  background-color: rgb(223, 103, 103);
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contacto__list {
+  padding: 0;
+}
+
+.contacto__list li {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+
+.contacto__list a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(206, 74, 74);
+}
+
+.contacto__list i {
+  font-size: 1.5rem;
+}
+
+.contacto__list h3 {
+  font-size: small;
+}
