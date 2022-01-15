@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/647d4a25be.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <footer class="footer">
@@ -12,43 +17,54 @@
         <h1 class="socialmedia__title">Sígenos</h1>
         <ul class="socialmedia__icon-list">
           <li>
-            <a href="#"><i></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
           </li>
           <li>
-            <a href="#"><i></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
           </li>
           <li>
-            <a href="#"><i></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
           </li>
           <li>
-            <a href="#"><i></i></a>
+            <a href="#"><i class="fab fa-pinterest-square"></i></a>
           </li>
           <li>
-            <a href="#"><i></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
           </li>
         </ul>
       </section>
       <section class="formulario">
         <div class="formulario__input">
-          <label for=""></label><input type="text" name="" id="" />
+          <label for="email">Recibe las novedades en tu E-mail</label>
+          <input type="text" name="email" id="email" style="width: 300px" />
         </div>
-        <h2 class="formulario__check">Recibe las novedades en tu E-mail</h2>
-        <button class="formulario__button">Suscríbete ></button>
+        <div class="formulario__checkbox">
+          <label for="checkbox"
+            >Acepto la <a href="#">politica de privacidad</a>
+          </label>
+          <input type="checkbox" name="accept" id="checkbox" />
+        </div>
+        <div class="formulario__button">
+          <button>Suscríbete ></button>
+        </div>
       </section>
       <section class="contacto">
         <ul class="contacto__list">
           <li>
             <a href="#">
+              <i class="fas fa-envelope"></i>
               <h3>CONTACTO</h3>
             </a>
           </li>
           <li>
             <a href="#">
+              <i class="fas fa-info-circle"></i>
               <h3>SOBRE NOSOTROS</h3>
             </a>
           </li>
           <li>
             <a href="#">
+              <i class="fas fa-shopping-cart"></i>
               <h3>CONDICIONES DE VENTA</h3>
             </a>
           </li>
