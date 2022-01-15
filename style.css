@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .socialmedia__title {
@@ -109,4 +110,76 @@ body {
 
 .contacto__list h3 {
   font-size: small;
+}
+.header {
+  height: 40px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+.icon--bars,
+.header__nav--red-person {
+  display: flex;
+  justify-content: space-between;
+}
+.header__nav--menu,
+.header__nav--buy-items {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__nav--red {
+  padding: 20px;
+  filter: saturate(0);
+}
+.header__nav--red:hover {
+  filter: none;
+}
+.icon--search,
+.icon--bars {
+  font-size: 25px;
+}
+.header__nav--num {
+  background-color: rgb(206, 74, 74);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  height: 40px;
+  width: 40px;
+}
+.header__nav--search {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+.main {
+  background-color: #f8f8f8;
+}
+.main__logo {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.main__brands {
+  display: none;
+}
+@media only screen and (min-width: 600px) {
+  .main__brands {
+    display: block;
+  }
+}
+.main__brands--image {
+  filter: saturate(0);
+}
+.main__brands--image:hover {
+  filter: none;
 }
