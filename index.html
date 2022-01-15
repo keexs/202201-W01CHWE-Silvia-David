@@ -10,30 +10,64 @@
       src="https://kit.fontawesome.com/647d4a25be.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      rel="icon"
-      href="https://static3.marialunarillos.com/media/favicon/default/favicon_1.png"
-      type="image/x-icon"
-    />
+    <link rel="icon" href="images/favicon_1.png" type="image/x-icon" />
     <link href="style.css" rel="stylesheet" />
     <title>lunarillos</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="icon--bars"><i class="fas fa-bars"></i></a
-        ><a class="icon--user"><i class="fas fa-user-plus"></i></a
-        ><a class="icon--search"><i class="fas fa-search-plus"></i></a
-        ><a class="icon-cart"><i class="fas fa-shopping-cart"></i></a>
+    <header class="header">
+      <nav class="header__nav">
+        <a class="icon--bars"><i class="fas fa-bars"></i></a>
+        <img
+          src="images/icon-person-black.png"
+          class="header__nav--black"
+          alt="icon login"
+        />
+        <img
+          src="images/icon-person-red.png"
+          class="header__nav--red"
+          alt="icon login in red"
+        />
+        <a class="icon--search"><i class="fas fa-search-plus"></i></a>
+        <img
+          src="images/cart-black.png"
+          class="header__nav--black"
+          alt="icon cart-shop in black"
+        />
+        <img
+          src="images/cart-red.png"
+          class="header__nav--red"
+          alt="icon cart-shop in red"
+        />
+        <!-- <a class="icon--user"><i class="fas fa-user-plus"></i></a
+        ><a class="icon-cart"><i class="fas fa-shopping-cart"></i></a> -->
         <p>0</p>
       </nav>
     </header>
     <main class="main">
-      <section class="main__logo">logo</section>
+      <section class="main__logo">
+        logo
+        <img
+          src="images/logo-small.png"
+          alt="logo Maria Lunarillos"
+          class="main__logo"
+        />
+      </section>
       <section class="main__images">
-        <div class="image"></div>
-        <div class="image"></div>
-        <div class="image"></div>
+        <img src="images/tarta-cumpleanos.png" alt="logo seccion fiestas" />
+        <h2 class="main__images--text">FIESTAS</h2>
+        <div class="image">
+          <img src="" alt="" />
+          <h3>FIESTAS TEMÁTICAS</h3>
+        </div>
+        <div class="image">
+          <img src="" alt="" />
+          <h3>FIESTAS TEMÁTICAS</h3>
+        </div>
+        <div class="image">
+          <img src="" alt="" />
+          <h3>FIESTAS TEMÁTICAS</h3>
+        </div>
         <button class="image__button"></button>
       </section>
       <section class="main__brands">
