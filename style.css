@@ -3,8 +3,33 @@ body {
   padding: 0;
 }
 
-.socialmedia ul li {
+.socialmedia__title {
+  text-align: center;
+  font-size: medium;
+}
+
+.socialmedia ul {
   display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+}
+
+.socialmedia__iconlist li {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.socialmedia__iconlist li a img {
+  font-size: x-large;
+}
+
+.socialmedia__iconlist li a img:hover {
+  filter: saturate(0);
+}
+
+.socialmedia__iconlist a {
+  text-decoration: none;
 }
 
 .formulario__input {
@@ -30,9 +55,25 @@ body {
   justify-content: center;
 }
 
-.formulario__button button {
+.formulario__checkbox label a {
+  color: black;
+}
+
+.formulario__button {
   display: flex;
   justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.formulario__button button {
+  background-color: rgb(223, 103, 103);
+  border-style: none;
+  height: 34px;
+  width: 200px;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .footerbar {
@@ -54,12 +95,16 @@ body {
 
 .contacto__list a {
   text-align: center;
-  text-decoration: none;
   color: rgb(206, 74, 74);
+  text-decoration: none;
 }
 
 .contacto__list i {
   font-size: 1.5rem;
+}
+
+.contacto__list li a:hover {
+  text-decoration: underline;
 }
 
 .contacto__list h3 {
