@@ -216,14 +216,50 @@ h5 {
 .main__brands {
   display: none;
 }
-@media only screen and (min-width: 600px) {
-  .main__brands {
-    display: block;
-  }
-}
+
 .main__brands--image {
   filter: saturate(0);
 }
 .main__brands--image:hover {
   filter: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .main__brands {
+    display: block;
+  }
+
+  .footer__info {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .socialmedia {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacto__list li {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .contacto__list h3 {
+    padding-left: 2px;
+  }
+
+  .contacto__list li a {
+    display: flex;
+    align-items: center;
+  }
+
+  .general-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .formulario {
+    align-self: center;
+  }
 }
