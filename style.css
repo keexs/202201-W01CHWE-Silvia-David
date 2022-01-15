@@ -20,9 +20,12 @@ body {
   padding-left: 1rem;
 }
 
-.socialmedia__iconlist li a i {
+.socialmedia__iconlist li a img {
   font-size: x-large;
-  color: rgb(223, 103, 103);
+}
+
+.socialmedia__iconlist li a img:hover {
+  filter: saturate(0);
 }
 
 .socialmedia__iconlist a {
@@ -98,6 +101,10 @@ body {
 
 .contacto__list i {
   font-size: 1.5rem;
+}
+
+.contacto__list li a:hover {
+  text-decoration: underline;
 }
 
 .contacto__list h3 {
