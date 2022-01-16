@@ -230,6 +230,7 @@ h5 {
 }
 .main__menu {
   background-color: white;
+  height: 250px;
 }
 .main__menu-logo {
   display: flex;
