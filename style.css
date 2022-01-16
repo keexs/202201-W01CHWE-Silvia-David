@@ -230,8 +230,9 @@ h5 {
 }
 .main__menu {
   background-color: white;
-  height: 150px;
-  padding: 75px;
+  height: 100px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 .main__menu-logo {
   display: flex;
@@ -241,7 +242,6 @@ h5 {
 .main__brands {
   display: none;
 }
-
 .main__images {
   display: flex;
   flex-direction: column;
@@ -328,16 +328,25 @@ h5 {
   }
   .main__menu-form {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
   }
   .menu__right {
     background-color: #9faa4d;
-    padding-right: 20px;
   }
   .menu__left {
     background-color: #8e789d;
-    padding-right: 20px;
   }
+
+  /* .menu-lupa {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 30px;
+    border: 1px solid black;
+  } */
+
   .menu__left,
   .menu__right {
     display: flex;
@@ -346,7 +355,7 @@ h5 {
     font-size: 18px;
     width: 130px;
     height: 30px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .main__blank {
