@@ -24,20 +24,15 @@
       <nav class="header__nav">
         <div class="header__nav--menu">
           <a class="icon--bars"><i class="fas fa-bars"></i></a>
-        
         </div>
         <div class="header__nav--buy-items">
           <img
             src="images/person-red.png"
-            class="header__nav--red
-            header__nav--red-person"
+            class="header__nav--red header__nav--red-person"
             alt="icon login in red"
-          /> 
+          />
           <div class="header__nav--search">
-            <img
-            src="images/lupa.png"
-            alt="icon search"
-            />
+            <img src="images/lupa.png" alt="icon search" />
           </div>
           <img
             src="images/cart-white.png"
@@ -53,57 +48,86 @@
     <main class="main">
       <section class="main__menu">
         <span class="main__menu-logo">
-          <img
-          src="images/logo-small.png"
-          alt="logo Maria Lunarillos"
-         />
+          <img src="images/logo-small.png" alt="logo Maria Lunarillos" />
         </span>
-          <div class="main__menu-form">
-            <div class="menu__right">
-              <p>NOVEDADES</p>
-            </div>
-            <div class="menu__left">
-              <p>OFERTAS</p>
-            </div>
-            <form>
-              <div class="menu-search__form">
-                <input type="text" name="text" id="form" />
-                <div class="menu__search">
-                    <img
-                    src="images/lupa.png"
-                    alt="icon search"
-                    />
-                </div> 
+        <div class="main__menu-form">
+          <div class="menu__right">
+            <img src="images/star.png" alt="icon star" />
+            <p class="menu__right">NOVEDADES</p>
+          </div>
+          <div class="menu__left">
+            <img src="images/star-2.png" alt="icon star-2" />
+            <p class="menu__left">OFERTAS</p>
+          </div>
+          <form class="main__menu-form">
+            <div class="menu-search__form">
+              <input type="text" name="text" id="form" />
+              <div class="menu__search">
+                <img
+                  src="images/lupa.png"
+                  alt="icon search"
+                  class="menu-lupa"
+                />
               </div>
-
-            </form>
+            </div>
+          </form>
+        </div>
+        <div class="menu__horizontals">
+          <div class="menu--container">
+            <div class="image-container">
+              <img
+                src="images/utensiliosML.png"
+                alt="utensilios"
+                class="image-square"
+              />
+            </div>
+            <p class="menu--container">UTENSILIOS</p>
           </div>
-          <div class="menu__horizontals">
-            <p class="image">
-            <img src="images/utensiliosML.png" alt="utensilios">
-            </p>
-            <p class="image">
-            <img src="images/muffin.png" alt="muffin">
-            </p>
-            <p class="image">
-            <img src="images/davantal.png" alt="davantal">
-            </p>
-            <p class="image">
-            <img src="images/tarta-cumpleanos.png" alt="tarta">
-            </p>
-            <p class="image">
-            <img src="images/comic.png" alt="comic">
-            </p>
-          
+          <div class="menu--container">
+            <div class="image-container">
+              <img
+                src="images/muffin.png"
+                alt="muffin"
+                class="image-square--small"
+              />
+            </div>
+            <p class="menu--container">INGREDIENTES</p>
           </div>
+          <div class="menu--container">
+            <div class="image-container">
+              <img
+                src="images/tarta-cumpleanos.png"
+                alt="tarta"
+                class="image-square"
+              />
+            </div>
+            <p class="menu--container">FIESTAS</p>
+          </div>
+          <div class="menu--container">
+            <div class="image-container">
+              <img
+                src="images/davantal.png"
+                alt="davantal"
+                class="image-square--small"
+              />
+            </div>
+            <p class="menu--container">MARCAS</p>
+          </div>
+          <div class="menu--container--apart">
+            <div class="image-container image-container--apart">
+              <img src="images/comic.png" alt="comic" class="image-square" />
+            </div>
+            <p class="menu--container">BLOG</p>
+          </div>
+        </div>
       </section>
       <section class="main__images">
         <div class="main__images--logo">
           <img src="images/tarta-cumpleanos.png" alt="logo seccion fiestas" />
         </div>
-        
+
         <h2 class="main__images--text">FIESTAS</h2>
-       
+
         <div class="image-section">
           <img
             src="images/fiestastematicas.jpeg"
@@ -114,82 +138,132 @@
         </div>
 
         <div class="image-section">
-        <img
+          <img
             src="images/fiestaspersonajes.jpeg"
             alt="imagen fiestas personajes"
             class="image-section-img"
           />
           <h3 class="image-section__text">FIESTAS PERSONAJES</h3>
         </div>
-          <div class="image-section">
-          <img src="images/pompones.jpg" alt="imagen accesorios para fiestas" class="image-section-img"/>
+        <div class="image-section">
+          <img
+            src="images/pompones.jpg"
+            alt="imagen accesorios para fiestas"
+            class="image-section-img"
+          />
           <h3 class="image-section__text text-img3">ACCESORIOS PARA FIESTAS</h3>
-          </div>
+        </div>
         <button class="image__button">VER MÁS</button>
       </section>
       <section class="main__brands">
         <h2 class="main__brands--text">NUESTRAS MARCAS</h2>
         <div class="main__brands--images">
-          <img src="images/assets/Wilton_4.png" alt="Wilton" class="main__brands--image"/>
           <img
-          src="images/assets/Emile_Henry_2.png"
-          alt="brand Emile Henry"
-          class="main__brands--image"
-        />
-          <img src="images/assets/Silikomart_2.png" alt="brand Silikomart" class="main__brands--image"/>
-          <img src="images/assets/Nordic_Ware_2.png" alt="brand Nordic Ware" class="main__brands--image"/>
-          <img src="images/assets/Lekue_5.png" alt="brand Lekue" class="main__brands--image"/>
-          <img src="images/assets/Valrhona_2.png" alt="brand Valrhona" class="main__brands--image"/>
+            src="images/assets/Wilton_4.png"
+            alt="Wilton"
+            class="main__brands--image"
+          />
+          <img
+            src="images/assets/Emile_Henry_2.png"
+            alt="brand Emile Henry"
+            class="main__brands--image"
+          />
+          <img
+            src="images/assets/Silikomart_2.png"
+            alt="brand Silikomart"
+            class="main__brands--image"
+          />
+          <img
+            src="images/assets/Nordic_Ware_2.png"
+            alt="brand Nordic Ware"
+            class="main__brands--image"
+          />
+          <img
+            src="images/assets/Lekue_5.png"
+            alt="brand Lekue"
+            class="main__brands--image"
+          />
+          <img
+            src="images/assets/Valrhona_2.png"
+            alt="brand Valrhona"
+            class="main__brands--image"
+          />
           <img
             src="images/assets/Joseph_Joseph_2.png"
             alt="brand Joseph Joseph"
-            class="main__brands--image"/>
+            class="main__brands--image"
+          />
           <img
             src="images/assets/Squires_Kitchen_2.png"
             alt="brand Squires Kitchen"
-            class="main__brands--image"/>
+            class="main__brands--image"
+          />
           <img
             src="images/assets/KitchenCraft_2.png"
             alt="brand Kitchen Craft"
             class="main__brands--image"
           />
-          <img src="images/assets/KitchenAid_1.png" alt="brand Kitchend Aid" class="main__brands--image"/>
-          <img src="images/assets/GreenGate_2.png" alt="brand GreenGate" class="main__brands--image"/>
-          <img src="images/assets/Decora_1.png" alt="brand Decora" class="main__brands--image"/>
-          <img src="images/assets/Kilner_1.png" alt="brand Kilner" class="main__brands--image"/>
-          <img src="images/assets/Stadter_1.png" alt="brand Stadler" class="main__brands--image"/>
+          <img
+            src="images/assets/KitchenAid_1.png"
+            alt="brand Kitchend Aid"
+            class="main__brands--image"
+          />
+          <img
+            src="images/assets/GreenGate_2.png"
+            alt="brand GreenGate"
+            class="main__brands--image"
+          />
+          <img
+            src="images/assets/Decora_1.png"
+            alt="brand Decora"
+            class="main__brands--image"
+          />
+          <img
+            src="images/assets/Kilner_1.png"
+            alt="brand Kilner"
+            class="main__brands--image"
+          />
+          <img
+            src="images/assets/Stadter_1.png"
+            alt="brand Stadler"
+            class="main__brands--image"
+          />
           <img
             src="images/assets/Funcakes_1.png"
-            alt="brand Fun Cakes" class="main__brands--image"
+            alt="brand Fun Cakes"
+            class="main__brands--image"
           />
           <img
             src="images/assets/House_of_Marie_1.png"
             alt="brand House of Marie"
             class="main__brands--image"
           />
-          <img src="images/assets/Rainbow_Dust_1.png" alt="Rainbow Dust" class="main__brands--image"/>
+          <img
+            src="images/assets/Rainbow_Dust_1.png"
+            alt="Rainbow Dust"
+            class="main__brands--image"
+          />
           <img
             src="images/assets/LorAnn_1.png"
-            alt="brand LorAnn" class="main__brands--image"
+            alt="brand LorAnn"
+            class="main__brands--image"
           />
-          </div>
-          <button class="image__button">VER MÁS</button>
+        </div>
+        <button class="image__button">VER MÁS</button>
       </section>
-      <section class="main__blank">
-      </section>
-      
+      <section class="main__blank"></section>
       <section class="general-info">
         <ul>
           <li>
             <div class="general-info__envio">
-              <img src="/images/truck-red.png" alt="camion">
+              <img src="/images/truck-red.png" alt="camion" />
               <h4>ENVIO GRATOS</h4>
               <h5>PEDIDOS SUPERIOIRES A 49€</h5>
             </div>
           </li>
           <li>
             <div class="general-info__time">
-              <img src="/images/clock-red.png" alt="reloj">
+              <img src="/images/clock-red.png" alt="reloj" />
               <h4>ENVIOS 24-48 HORAS</h4>
               <h5>HAZ TU PEDIDO ANTES DE LAS 18:00H</h5>
             </div>
@@ -198,84 +272,87 @@
         <ul>
           <li>
             <div class="general-info__devolucion">
-              <img src="/images/post-red.png" alt="carta de devoluciones">
+              <img src="/images/post-red.png" alt="carta de devoluciones" />
               <h4>DEVOLUCIONES</h4>
               <h5>30 DIAS PARA DEVOLVER TU COMPRA</h5>
             </div>
           </li>
           <li>
             <div class="general-info__reembolso">
-              <img src="/images/target-red.png" alt="tarjeta de credito">
+              <img src="/images/target-red.png" alt="tarjeta de credito" />
               <h4>CONTRA REEMBOLSO</h4>
               <h5>SIN COMISION</h5>
             </div>
           </li>
         </ul>
       </section>
-
     </main>
 
     <footer class="footer">
       <div class="footer__info">
-      <section class="socialmedia">
-        <h6 class="socialmedia__title">Síguenos</h6>
-        <ul class="socialmedia__iconlist">
-          <li>
-            <a href="#"><img src="/images/facebool-red.png" alt="facebook logo"></a>
-          </li>
-          <li>
-            <a href="#"><img src="/images/twitter-red.png" alt=""></a>
-          </li>
-          <li>
-            <a href="#"><img src="/images/instagram-red.png" alt=""></a>
-          </li>
-          <li>
-            <a href="#"><img src="/images/printerest-red.png" alt=""></a>
-          </li>
-          <li>
-            <a href="#"><img src="/images/youtube-red.png" alt=""></a>
-          </li>
-        </ul>
-      </section>
-      <section class="formulario">
-        <div class="formulario__input">
-          <label for="email">Recibe las novedades en tu E-mail</label>
-          <input type="text" name="email" id="email" style="width: 300px" />
-        </div>
-        <div class="formulario__checkbox">
-          <label for="checkbox"
-            >Acepto la <a href="#">politica de privacidad</a>
-          </label>
-          <input type="checkbox" name="accept" id="checkbox" />
-        </div>
-        <div class="formulario__button">
-          <button class="submit">Suscríbete ></button>
-        </div>
-      </section>
-      <section class="contacto">
-        <ul class="contacto__list">
-          <li>
-            <a href="#">
-              <i class="fas fa-envelope"></i>
-              <h3>CONTACTO</h3>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fas fa-info-circle"></i>
-              <h3>SOBRE NOSOTROS</h3>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fas fa-shopping-cart"></i>
-              <h3>CONDICIONES DE VENTA</h3>
-            </a>
-          </li>
-        </ul>
-      </section>
+        <section class="socialmedia">
+          <h6 class="socialmedia__title">Síguenos</h6>
+          <ul class="socialmedia__iconlist">
+            <li>
+              <a href="#"
+                ><img src="/images/facebool-red.png" alt="facebook logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/images/twitter-red.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/images/instagram-red.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/images/printerest-red.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/images/youtube-red.png" alt="" /></a>
+            </li>
+          </ul>
+        </section>
+        <section class="formulario">
+          <div class="formulario__input">
+            <label for="email">Recibe las novedades en tu E-mail</label>
+            <input type="text" name="email" id="email" style="width: 300px" />
+          </div>
+          <div class="formulario__checkbox">
+            <label for="checkbox"
+              >Acepto la <a href="#">politica de privacidad</a>
+            </label>
+            <input type="checkbox" name="accept" id="checkbox" />
+          </div>
+          <div class="formulario__button">
+            <button class="submit">Suscríbete ></button>
+          </div>
+        </section>
+        <section class="contacto">
+          <ul class="contacto__list">
+            <li>
+              <a href="#">
+                <i class="fas fa-envelope"></i>
+                <h3>CONTACTO</h3>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-info-circle"></i>
+                <h3>SOBRE NOSOTROS</h3>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-shopping-cart"></i>
+                <h3>CONDICIONES DE VENTA</h3>
+              </a>
+            </li>
+          </ul>
+        </section>
       </div>
-      <section class="footerbar">Copyright <span>&#169</span>2021 Maria Lunarillos</section>
+      <section class="footerbar">
+        Copyright <span>&#169;</span>2021 Maria Lunarillos
+      </section>
     </footer>
   </body>
 </html>
