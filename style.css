@@ -30,7 +30,6 @@ body {
   margin: 0;
   width: 15rem;
   height: 13rem;
-  size: 10rem;
 }
 
 .general-info img {
@@ -114,7 +113,7 @@ h5 {
 }
 
 .formulario__button button {
-  background-color: rgb(223, 103, 103);
+  background-color: #ff5959;
   border-style: none;
   height: 34px;
   width: 200px;
@@ -125,7 +124,7 @@ h5 {
 }
 
 .footerbar {
-  background-color: rgb(223, 103, 103);
+  background-color: #ff5959;
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -200,11 +199,11 @@ h5 {
   height: 40px;
   width: 40px;
   padding: 15px;
-  background-color: rgb(206, 74, 74);
+  background-color: #ff5959;
   cursor: pointer;
 }
 .header__nav--num {
-  background-color: rgb(206, 74, 74);
+  background-color: #ff5959;
   color: white;
   display: flex;
   justify-content: center;
@@ -231,27 +230,18 @@ h5 {
 }
 .main__menu {
   background-color: white;
-  height: 250px;
+  height: 150px;
+  padding: 75px;
 }
 .main__menu-logo {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
 }
-.main__menu-menu {
-  display: none;
-}
 .main__brands {
   display: none;
 }
-.image {
-  border: 0.5px solid grey;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80px;
-  width: 80px;
-}
+
 .main__images {
   display: flex;
   flex-direction: column;
@@ -293,7 +283,7 @@ h5 {
   filter: none;
 }
 .image__button {
-  background-color: rgb(206, 74, 74);
+  background-color: #ff5959;
   color: white;
   border: none;
   width: 100px;
@@ -306,6 +296,12 @@ h5 {
   display: flex;
   background-color: white;
   height: 200px;
+}
+.menu__horizontals {
+  display: none;
+}
+.main__menu-form {
+  display: none;
 }
 
 @media only screen and (min-width: 600px) {
@@ -322,6 +318,9 @@ h5 {
     margin: 15px;
     height: 75px;
   }
+  .main__menu {
+    height: 400px;
+  }
   .main__menu-logo {
     display: flex;
     justify-content: flex-start;
@@ -333,6 +332,7 @@ h5 {
   }
   .menu__right {
     background-color: #9faa4d;
+    padding-right: 20px;
   }
   .menu__left {
     background-color: #8e789d;
@@ -348,17 +348,52 @@ h5 {
     height: 30px;
     margin-left: 20px;
   }
-  .main__menu-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-  }
+
   .main__blank {
     display: none;
   }
-  .menu__horizontal {
+  .menu__horizontals {
+    display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .image-container {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    margin: 0.5px;
+  }
+  .image-container--apart {
+    background-color: #ff5959;
+  }
+  .image-container:hover {
+    background-color: #ff5959;
+    cursor: pointer;
+  }
+  .image-container--apart:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+
+  .image-square {
+    height: 70px;
+  }
+  .menu--container {
+    font-size: 12px;
+    padding-left: 7px;
+  }
+  .menu--container--apart:hover {
+    color: black;
+  }
+  .menu--container--apart {
+    font-size: 13px;
+    padding-left: 7px;
+    margin-left: 20px;
+
+    color: #ff5959;
   }
 
   .footer__info {
