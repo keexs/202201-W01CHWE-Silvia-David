@@ -230,7 +230,7 @@ h5 {
 }
 .main__menu {
   background-color: white;
-  height: 100px;
+  height: 250px;
   padding-left: 75px;
   padding-right: 75px;
 }
@@ -357,7 +357,12 @@ h5 {
     height: 30px;
     margin-left: 10px;
   }
-
+  .main__brands--text {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 30px;
+    margin: 40px;
+  }
   .main__blank {
     display: none;
   }
