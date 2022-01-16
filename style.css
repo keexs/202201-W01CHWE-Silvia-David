@@ -322,6 +322,32 @@ h5 {
     margin: 15px;
     height: 75px;
   }
+  .main__menu-logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 120px;
+  }
+  .main__menu-form {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu__right {
+    background-color: #9faa4d;
+  }
+  .menu__left {
+    background-color: #8e789d;
+    padding-right: 20px;
+  }
+  .menu__left,
+  .menu__right {
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    font-size: 18px;
+    width: 130px;
+    height: 30px;
+    margin-left: 20px;
+  }
   .main__menu-menu {
     display: flex;
     flex-direction: row;
