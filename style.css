@@ -256,13 +256,18 @@ h5 {
   padding: 30px;
   margin: 40px;
 }
-
-.image-section {
+.image-section__card {
   position: relative;
   margin-bottom: 15px;
 }
 .image-section-img {
   width: 325px;
+}
+.image-section-img--vertical {
+  height: 136px;
+  width: 325px;
+  object-position: right top;
+  object-fit: cover;
 }
 .image-section__text {
   background-color: rgba(255, 255, 255, 0.7);
@@ -270,6 +275,7 @@ h5 {
   font-size: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: absolute;
   height: 90px;
   width: 170px;
@@ -301,6 +307,9 @@ h5 {
   display: none;
 }
 .main__menu-form {
+  display: none;
+}
+.image-section__text--desktop {
   display: none;
 }
 
@@ -391,7 +400,86 @@ h5 {
     background-color: #f2f2f2;
     cursor: pointer;
   }
+  .image-section {
+    width: 1000px;
+    height: 650px;
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 280px 280px;
+  }
+  .image-section-img-top {
+    height: 263px;
+    width: 628px;
+  }
+  .image-section-img-down {
+    height: 263px;
+    width: 628px;
+  }
 
+  .image-section__card--up {
+    height: 263px;
+    width: 628px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-end: 3;
+  }
+
+  .image-section__card--down {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 3;
+  }
+  .image-section__card--vertical {
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-row-end: 4;
+    grid-column-end: 4;
+  }
+  .image-section-img--vertical {
+    object-fit: none;
+    object-position: top;
+    width: 306px;
+    height: 539px;
+  }
+  .image-section__text {
+    height: 120px;
+    width: 250px;
+    display: flex;
+  }
+  .image-section__text-u {
+    height: 120px;
+    width: 250px;
+    display: flex;
+    bottom: 0;
+  }
+  .image-section__text-d {
+    height: 120px;
+    width: 250px;
+    display: flex;
+    bottom: 92px;
+  }
+  .image-section__text-v {
+    height: 120px;
+    width: 250px;
+    display: flex;
+    bottom: -277px;
+  }
+
+  .image-section__text--title {
+    font-size: 18px;
+    position: absolute;
+  }
+  p.image-section__text--desktop {
+    display: flex;
+    color: rgb(105, 102, 102);
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .image-square {
     height: 70px;
   }
