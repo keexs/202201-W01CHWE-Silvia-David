@@ -256,6 +256,9 @@ h5 {
   flex-direction: column;
   align-items: center;
 }
+.main__images--logo {
+  transform: translateY(-65px);
+}
 .image-section {
   position: relative;
   margin-bottom: 15px;
