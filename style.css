@@ -416,7 +416,37 @@ h5 {
   .header__nav--menu {
     display: none;
   }
-
+  .menu__vertical {
+    margin-left: 20px;
+    display: block;
+    position: absolute;
+    width: 202px;
+    height: 125px;
+  }
+  .image__menu-vertical {
+  }
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  .menu__vertical--left {
+    background-color: #ff5959;
+    height: 125px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .menu__vertical--center {
+    background-color: #6199af;
+    height: 70px;
+    width: 60px;
+  }
+  .menu__vertical--rigth {
+    background-color: #f6b436;
+    height: 70px;
+    width: 60px;
+  }
   .menu__left,
   .menu__right {
     display: flex;
