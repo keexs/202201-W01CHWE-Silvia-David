@@ -363,7 +363,9 @@ h5 {
 .image-section__text--desktop {
   display: none;
 }
-
+.menu__vertical {
+  display: none;
+}
 @media only screen and (min-width: 600px) {
   .main__brands {
     display: flex;
@@ -388,6 +390,9 @@ h5 {
     justify-content: flex-end;
     padding-top: 33px;
   }
+  .header__nav {
+    justify-content: space-between;
+  }
 
   .header__nav--login a {
     display: contents;
@@ -407,7 +412,51 @@ h5 {
   .header__nav--socialmedia {
     display: contents;
   }
+  .header__nav--menu {
+    display: none;
+  }
+  .menu__vertical {
+    display: flex;
+    margin-left: 20px;
+    width: 202px;
+    height: 125px;
+  }
 
+  ul.menu__vertical {
+    list-style: none;
+    display: flex;
+  }
+  .menu__vertical--left {
+    background-color: #ff5959;
+    height: 125px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 5px;
+  }
+  .menu__vertical--center {
+    background-color: #6199af;
+    height: 70px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 5px;
+  }
+  .menu__vertical--rigth {
+    background-color: #f6b436;
+    height: 70px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 5px;
+  }
+  .menu__vertical--center:hover,
+  .menu__vertical--rigth:hover {
+    height: 125px;
+  }
   .menu__left,
   .menu__right {
     display: flex;
