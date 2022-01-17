@@ -363,7 +363,9 @@ h5 {
 .image-section__text--desktop {
   display: none;
 }
-
+.menu__vertical {
+  display: none;
+}
 @media only screen and (min-width: 600px) {
   .main__brands {
     display: flex;
@@ -410,6 +412,9 @@ h5 {
 
   .header__nav--socialmedia {
     display: contents;
+  }
+  .header__nav--menu {
+    display: none;
   }
 
   .menu__left,
