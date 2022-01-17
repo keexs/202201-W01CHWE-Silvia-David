@@ -241,14 +241,14 @@ h5 {
   background-color: black;
   height: 40px;
   width: 40px;
-  padding: 15px;
+  padding: 5px;
   filter: invert(1);
 }
 .header__nav--white:hover {
   filter: none;
   height: 40px;
   width: 40px;
-  padding: 15px;
+  padding: 5px;
   background-color: #ff5959;
   cursor: pointer;
 }
@@ -381,11 +381,7 @@ h5 {
   .main__menu {
     height: 400px;
   }
-  .main__menu-logo {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 120px;
-  }
+
   .main__menu-form {
     display: flex;
     flex-direction: row;
@@ -548,7 +544,7 @@ h5 {
   }
   .menu--container--apart {
     font-size: 13px;
-    padding-left: 7px;
+    padding-left: 36px;
     margin-left: 20px;
 
     color: #ff5959;
@@ -620,5 +616,15 @@ h5 {
   }
   .main__menu-logo img {
     height: auto;
+  }
+  .menu__search {
+    background-color: grey;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .menu__horizontals div {
+    margin-right: 2px;
+    margin-left: 3px;
   }
 }
