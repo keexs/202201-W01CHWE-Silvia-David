@@ -423,8 +423,7 @@ h5 {
     width: 202px;
     height: 125px;
   }
-  .image__menu-vertical {
-  }
+
   ul {
     list-style: none;
     display: flex;
@@ -436,16 +435,29 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin: 5px;
   }
   .menu__vertical--center {
     background-color: #6199af;
     height: 70px;
     width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 5px;
   }
   .menu__vertical--rigth {
     background-color: #f6b436;
     height: 70px;
     width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 5px;
+  }
+  .menu__vertical--center:hover,
+  .menu__vertical--rigth:hover {
+    height: 125px;
   }
   .menu__left,
   .menu__right {
