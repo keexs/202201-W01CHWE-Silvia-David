@@ -5,6 +5,27 @@ body {
   min-width: 360px;
 }
 
+.header__nav--login {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav--login a {
+  color: rgb(54, 54, 54);
+  font-size: small;
+  text-decoration: none;
+  display: none;
+}
+
+.header__nav--login a :hover {
+  color: #ff5959;
+}
+
+.header__nav--red:hover {
+  filter: none;
+  cursor: pointer;
+}
+
 .header__nav--modifier {
   display: flex;
 }
@@ -215,10 +236,7 @@ h5 {
   padding: 20px;
   filter: saturate(0);
 }
-.header__nav--red:hover {
-  filter: none;
-  cursor: pointer;
-}
+
 .header__nav--white {
   background-color: black;
   height: 40px;
@@ -252,6 +270,7 @@ h5 {
   height: 70px;
   width: 70px;
 }
+
 .icon--search,
 .icon--bars {
   font-size: 25px;
@@ -363,6 +382,11 @@ h5 {
     flex-direction: row;
     justify-content: flex-end;
   }
+
+  .header__nav--login a {
+    display: contents;
+  }
+
   .menu__right {
     background-color: #9faa4d;
   }
