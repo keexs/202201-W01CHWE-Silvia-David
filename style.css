@@ -424,7 +424,7 @@ h5 {
     height: 125px;
   }
 
-  ul {
+  ul.menu__vertical {
     list-style: none;
     display: flex;
   }
