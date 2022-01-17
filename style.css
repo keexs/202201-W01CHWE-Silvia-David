@@ -519,4 +519,8 @@ h5 {
   .formulario {
     align-self: center;
   }
+
+  .header__nav {
+    justify-content: space-between;
+  }
 }
